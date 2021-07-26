@@ -1,0 +1,68 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    function calculaImc(altura, peso) {
+
+    return peso / ( altura * altura );
+    
+    }
+
+    var nome = prompt("Cálculo do IMC - Informe seu nome:");
+    var alturaInformada = prompt(nome + " Informe sua altura utilizando ponto como separador decimal:");
+    var pesoInformado = prompt(nome + " Informe seu peso:");
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(nome + " seu IMC é: " + Math.round(imc) + ".");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("CONFIRA ABAIXO COMO ESTÁ O SEU IMC CLASSIFICAÇÃO:");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("IMC 18,5: Abaixo do Peso");
+    document.write("<br>");
+    document.write("IMC 18,5 - 24,9: Peso Normal");
+    document.write("<br>");
+    document.write("IMC 25 - 29,9: Sobrepeso");
+    document.write("<br>");
+    document.write("IMC 30 - 34,9: Obesidade Grau I");
+    document.write("<br>");
+    document.write("IMC 35 - 39,9: Obesidade Grau II");
+    document.write("<br>");
+    document.write("IMC > que 40: Obesidade Grau III ou Mórbida");
+
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    
+    
+    document.write("Pedro Agra ");
+    document.write("<br>");
+    document.write("31 99197-2884 ");
+    document.write("<br>");
+    document.write("Agra Software ");
+
+
+
+
+    
+
+    
+</script>
